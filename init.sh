@@ -16,6 +16,11 @@ ln -s ~/development/dotfiles/.zshrc ~/.zshrc
 ln -s ~/development/dotfiles/.aliases ~/.aliases
 ln -s ~/development/dotfiles/.exports ~/.exports
 echo
+echo "Setting up ZSH configurations"
+echo
+echo
+git submodule init
+git submodule update
 echo
 echo "###################################"
 echo "Installing Homebrew..."
