@@ -3,6 +3,7 @@
 # ---------------------------------
 alias cat=ccat
 alias ls='ls -GFh'
+alias sublime='subl'
 
 # ---------------------------------
 # Python Things
@@ -22,8 +23,8 @@ alias nodemem='node --max-old-space-size=4096'
 # ---------------------------------
 # Git Aliases
 # ---------------------------------
-alias gitup='git fetch origin && git pull origin master'
-alias git-branch-clean='git branch | grep -v "master" | xargs git branch -D'
+alias gitup='git fetch origin && git pull origin main'
+alias git-branch-clean='git branch | grep -v "master" | grep -v "main" | xargs git branch -D'
 alias gs='git status'
 alias gc='git checkout'
 alias ga='git add'

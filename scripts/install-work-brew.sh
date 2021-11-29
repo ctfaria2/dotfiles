@@ -8,6 +8,9 @@ curl -s "https://get.sdkman.io?rcupdate=false" | zsh
 
 source "/Users/cfaria/.sdkman/bin/sdkman-init.sh"
 
+# Development Environment
+brew install --cask docker
+
 # Work Chat
 brew install --cask slack
 brew install --cask zoom
@@ -22,3 +25,6 @@ brew install aws-cdk
 brew install nodenv
 nodenv init
 nodenv install 16.13.0
+
+# JVM Tools
+brew install gradle
