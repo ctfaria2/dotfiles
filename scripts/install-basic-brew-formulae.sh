@@ -37,4 +37,6 @@ brew install vim
 # Install other useful binaries.
 brew install git
 brew install cloc
+brew install bat
 brew install ccat
+brew install sd
