@@ -17,3 +17,7 @@ source ~/.exports
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+
+# bit
+export PATH="$PATH:/Users/cfaria/bin"
+# bit end

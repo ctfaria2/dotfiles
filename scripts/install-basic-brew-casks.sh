@@ -21,6 +21,8 @@ brew install --cask clipy
 brew install --cask caffeine
 brew install --cask itsycal
 brew install --cask dropbox
+brew install --cask postman
+brew install --cask nordvpn
 
 # Web
 brew install --cask google-chrome
