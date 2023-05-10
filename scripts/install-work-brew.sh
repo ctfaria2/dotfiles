@@ -22,9 +22,8 @@ brew install --cask notion
 brew install aws-cdk
 
 # Install Node.js
-brew install nodenv
-nodenv init
-nodenv install 16.13.0
+brew install n
+n install 16.19.0
 
 # JVM Tools
 brew install gradle
