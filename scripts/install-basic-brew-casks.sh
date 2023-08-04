@@ -18,6 +18,7 @@ brew install --cask evernote
 
 # Utilities
 brew install --cask clipy
+brew install --cask clocker
 brew install --cask caffeine
 brew install --cask itsycal
 brew install --cask dropbox
