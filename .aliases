@@ -13,8 +13,8 @@ alias sublime='subl'
 # ---------------------------------
 # Work Misc
 # ---------------------------------
-alias gtest-all='./gradlew test'
-alias gtest='./gradlew test --tests '
+alias gtest-all='./gradlew :backend:test'
+alias gtest='./gradlew :backend:test --tests '
 alias gintegration-all='./gradlew integrationTest'
 alias gintegration='./gradlew integrationTest --tests '
 alias gapi-all='./gradlew apiTest'

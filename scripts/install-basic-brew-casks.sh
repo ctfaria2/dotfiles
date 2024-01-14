@@ -35,5 +35,8 @@ brew install --cask whatsapp
 # Entertainment
 brew install --cask spotify
 
+# Photographer
+brew install --cask adobe-creative-cloud
+
 # Remove outdated versions from the cellar.
 brew cleanup
