@@ -1,7 +1,6 @@
 # ---------------------------------
 # General Things
 # ---------------------------------
-alias cat=ccat
 alias ls='ls -GFh'
 alias sublime='subl'
 
