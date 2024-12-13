@@ -13,12 +13,12 @@ alias sublime='subl'
 # ---------------------------------
 # Work Misc
 # ---------------------------------
-alias gtest-all='./gradlew :backend:test'
+alias gtest-all='./gradlew test'
 alias gtest='./gradlew :backend:test --tests '
 alias gintegration-all='./gradlew integrationTest'
 alias gintegration='./gradlew integrationTest --tests '
-alias gapi-all='./gradlew apiTest'
-alias gapi='./gradlew apiTest --tests '
+alias gapi-all='./gradlew backend:apiTest'
+alias gapi='./gradlew backend:apiTest --tests '
 
 # ---------------------------------
 # Node
@@ -33,6 +33,9 @@ alias git-branch-clean='git branch | grep -v "master" | grep -v "main" | xargs g
 alias gs='git status'
 alias gc='git checkout'
 alias ga='git add'
+
+# INFRA
+alias aws-login=~/development/projects/infrastructure-utils/aws-login
 
 # This should be the last line of the file
 # For local changes

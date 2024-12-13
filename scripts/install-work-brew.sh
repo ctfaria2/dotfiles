@@ -23,7 +23,8 @@ brew install aws-cdk
 
 # Install Node.js
 brew install n
-n install 16.19.0
+n install 20
+brew install pnpm
 
 # JVM Tools
 brew install gradle
