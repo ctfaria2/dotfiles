@@ -28,6 +28,7 @@ brew install --cask nordvpn
 # Web
 brew install --cask google-chrome
 brew install --cask firefox
+brew install --cask orion
 
 # Chat
 brew install --cask whatsapp
