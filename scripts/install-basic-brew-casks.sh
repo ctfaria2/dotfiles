@@ -9,21 +9,25 @@ brew install --cask font-source-code-pro
 
 # Coding
 brew install --cask sublime-text
+brew install --cask chatgpt
 
 # Set sublime as a command line tool
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 # Notes
-brew install --cask evernote
+brew install --cask notion
 
 # Utilities
 brew install --cask clipy
 brew install --cask clocker
 brew install --cask caffeine
-brew install --cask itsycal
 brew install --cask dropbox
 brew install --cask postman
 brew install --cask nordvpn
+
+# Calendar
+brew install --cask fantastical
+brew install --cask itsycal
 
 # Web
 brew install --cask google-chrome
