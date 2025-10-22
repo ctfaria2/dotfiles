@@ -23,8 +23,11 @@ brew install aws-cdk
 
 # Install Node.js
 brew install n
-n install 20
+n install 22
 brew install pnpm
+
+# Agentic coding
+brew install --cask claude-code
 
 # JVM Tools
 brew install gradle

@@ -25,3 +25,11 @@ export PATH="/Users/cfaria/bin:$PATH"
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *"$N_PREFIX/bin"* ]] || PATH="$N_PREFIX/bin:$PATH"  # Added by n-install (see http://git.io/n-install-repo).# infrastructure-utils
 setopt prompt_subst
 export PS1='$AWS_PROMPT'$PS1
+
+# pnpm
+export PNPM_HOME="/Users/cfaria/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
