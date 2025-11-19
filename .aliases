@@ -3,6 +3,8 @@
 # ---------------------------------
 alias ls='ls -GFh'
 alias sublime='subl'
+alias dev='cd ~/development'
+alias projects='cd ~/development/projects'
 
 # ---------------------------------
 # Python Things
@@ -31,6 +33,9 @@ alias gitup='git fetch origin && git pull origin main'
 alias git-branch-clean='git branch | grep -v "master" | grep -v "main" | xargs git branch -D'
 alias gs='git status'
 alias gc='git checkout'
+alias gwa='git worktree add'
+alias gwr='git worktree remove'
+alias gwl='git worktree list'
 alias ga='git add'
 
 # INFRA

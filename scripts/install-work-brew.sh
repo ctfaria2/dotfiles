@@ -21,6 +21,9 @@ brew install --cask notion
 # Infrastructure
 brew install aws-cdk
 
+# GitHub tooling
+brew install gh
+
 # Install Node.js
 brew install n
 n install 22

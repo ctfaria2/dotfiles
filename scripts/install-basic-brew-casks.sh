@@ -32,7 +32,7 @@ brew install --cask itsycal
 # Web
 brew install --cask google-chrome
 brew install --cask firefox
-brew install --cask orion
+brew install --cask brave-browser
 brew install --cask chatgpt-atlas
 
 # Chat
