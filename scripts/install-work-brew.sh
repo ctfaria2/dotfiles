@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# New Terminal
+brew install --cask ghostty
+
 # Install tools useful for work
 brew install --cask intellij-idea
 
