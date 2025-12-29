@@ -34,6 +34,7 @@ brew install pnpm
 
 # Agentic coding
 brew install --cask claude-code
+brew install --cask codex
 
 # JVM Tools
 brew install gradle

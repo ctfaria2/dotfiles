@@ -10,6 +10,7 @@ brew install --cask font-source-code-pro
 # Coding
 brew install --cask sublime-text
 brew install --cask chatgpt
+brew install --cask claude
 
 # Set sublime as a command line tool
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
