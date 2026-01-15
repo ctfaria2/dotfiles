@@ -39,3 +39,6 @@ brew install git
 brew install cloc
 brew install bat
 brew install sd
+
+# Local web
+brew install hugo
