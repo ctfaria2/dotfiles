@@ -15,6 +15,9 @@ echo "Setting up ZSH configurations"
 ln -s ~/development/dotfiles/.zshrc ~/.zshrc
 ln -s ~/development/dotfiles/.aliases ~/.aliases
 ln -s ~/development/dotfiles/.exports ~/.exports
+ln -s ~/development/dotfiles/AGENTS.md ~/AGENTS.md
+mkdir -p ~/.claude
+ln -s ~/development/dotfiles/.claude/settings.json ~/.claude/settings.json
 echo
 echo "Setting up ZSH configurations"
 echo
