@@ -17,6 +17,10 @@ source ~/.exports
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Shell integrations
+eval "$(fzf --zsh)"
+eval "$(zoxide init zsh)"
+
 
 # bit
 export PATH="/Users/cfaria/bin:$PATH"

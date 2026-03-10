@@ -1,5 +1,4 @@
 {
-  "alwaysThinkingEnabled": true,
   "permissions": {
     "allow": [
       "Bash(./gradlew:*)",
@@ -73,7 +72,7 @@
       "Read(**/*.key)",
       "Read(**/*.pem)",
       "Read(**/*credential*)",
-      "Read(**/*secret*)",
+      "Read(**/*secret*)"
     ],
     "ask": [
       "Bash(cat:../:*)",
@@ -100,5 +99,6 @@
       "mcp__notion__delete*",
       "mcp__notion__remove*"
     ]
-  }
+  },
+  "alwaysThinkingEnabled": true
 }

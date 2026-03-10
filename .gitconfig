@@ -1,0 +1,26 @@
+[user]
+	name = ctfaria2
+	email = 12798701+ctfaria2@users.noreply.github.com
+
+[init]
+	defaultBranch = main
+
+[core]
+	autocrlf = input
+	editor = vim
+
+[pull]
+	rebase = false
+
+[push]
+	autoSetupRemote = true
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+
+# For local/machine-specific overrides (e.g. work email)
+[include]
+	path = ~/.gitconfig.local

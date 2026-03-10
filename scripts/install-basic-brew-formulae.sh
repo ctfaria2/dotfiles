@@ -40,5 +40,13 @@ brew install cloc
 brew install bat
 brew install sd
 
+# Modern CLI replacements
+brew install fzf
+brew install ripgrep
+brew install eza
+brew install zoxide
+brew install jq
+brew install tldr
+
 # Local web
 brew install hugo
