@@ -46,7 +46,10 @@ brew install ripgrep
 brew install eza
 brew install zoxide
 brew install jq
+brew install yq
 brew install tldr
+brew install fd
+brew install git-delta
 
 # Local web
 brew install hugo

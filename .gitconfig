@@ -8,6 +8,7 @@
 [core]
 	autocrlf = input
 	editor = vim
+	pager = delta
 
 [pull]
 	rebase = false
@@ -17,6 +18,14 @@
 
 [merge]
 	conflictstyle = diff3
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
 
 [diff]
 	colorMoved = default
