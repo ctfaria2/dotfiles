@@ -87,7 +87,7 @@ chflags nohidden ~/Library
 ###############################################################################
 
 # Set the icon size of Dock items
-defaults write com.apple.dock tilesize -int 48
+defaults write com.apple.dock tilesize -int 56
 
 # Minimize windows using scale effect
 defaults write com.apple.dock mineffect -string "scale"
